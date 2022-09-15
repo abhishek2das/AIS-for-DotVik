@@ -391,19 +391,19 @@
                             <div class="col-6 img-fluid " >
                                 <div class="admin_slider">
                                     <div><img src="./assets/AIS Admin Panel Screens/Frame 713.png" alt="AIS Admin Panel"
-                                            class="img-fluid float-right all-Size"></div>
+                                            class="img-fluid float-right all-Size" onclick="imag_show()"></div>
                                     <div><img src="assets/AIS Admin Panel Screens/Frame 714.png" alt="AIS Admin Panel"
-                                            class="img-fluid float-right all-Size"></div>
+                                            class="img-fluid float-right all-Size" onclick="imag_show()"></div>
                                     <div><img src="assets/AIS Admin Panel Screens/Frame 715.png" alt="AIS Admin Panel"
-                                            class="img-fluid float-right all-Size"></div>
+                                            class="img-fluid float-right all-Size" onclick="imag_show()"></div>
                                     <div><img src="assets/AIS Admin Panel Screens/Frame 716.png" alt="AIS Admin Panel"
-                                            class="img-fluid float-right all-Size"></div>
+                                            class="img-fluid float-right all-Size" onclick="imag_show()"></div>
                                     <div><img src="assets/AIS Admin Panel Screens/Frame 717.png" alt="AIS Admin Panel"
-                                            class="img-fluid float-right all-Size"></div>
+                                            class="img-fluid float-right all-Size" onclick="imag_show()"></div>
                                     <div><img src="assets/AIS Admin Panel Screens/Frame 718.png" alt="AIS Admin Panel"
-                                            class="img-fluid float-right all-Size "></div>
+                                            class="img-fluid float-right all-Size " onclick="imag_show()"></div>
                                 </div>
-                                <div><i class="bi bi-zoom-in" onclick="imag()"></i></div>
+                                <!-- <div><i class="bi bi-zoom-in" onclick="imag_show()"></i></div> -->
 
                                 <!-- <img src="assets/Admin Panel.png" class="img-fluid" alt=""> -->
                             </div>
@@ -514,24 +514,23 @@
                                 <!-- <p class="lead"> <i class="fa fa-check"></i> Various Payment Modes</p> -->
                                 <!-- <p class="lead"> <i class="fa fa-check"></i> Live tracking of Order</p> -->
                             </div>
-                            <div class="col-6 img-fluid text-center" >
-                                <div class="reports_slide">
+                                <div class="reports_slide" >
                                     <div><img src="./assets/AIS IMGG/Frame 829.png" class="img-fluid ais_img "
-                                            alt="AIS IMGG"></div>
+                                            alt="AIS IMGG" onclick="imag1()"></div>
                                     <div><img src="./assets/AIS IMGG/Frame 830.png" class="img-fluid ais_img "
-                                            alt="AIS IMGG"></div>
+                                            alt="AIS IMGG" onclick="imag1()"></div>
                                     <div><img src="./assets/AIS IMGG/Frame 831.png" class="img-fluid ais_img "
-                                            alt="AIS IMGG"></div>
+                                            alt="AIS IMGG" onclick="imag1()"></div>
                                     <div><img src="./assets/AIS IMGG/Frame 832.png" class="img-fluid ais_img "
-                                            alt="AIS IMGG"></div>
+                                            alt="AIS IMGG" onclick="imag1()"></div>
                                     <div><img src="./assets/AIS IMGG/Frame 833.png" class="img-fluid ais_img "
-                                            alt="AIS IMGG"></div>
+                                            alt="AIS IMGG" onclick="imag1()"></div>
                                     <div><img src="./assets/AIS IMGG/Frame 834.png" class="img-fluid ais_img "
-                                            alt="AIS IMGG"></div>
+                                            alt="AIS IMGG" onclick="imag1()"></div>
                                     <div><img src="./assets/AIS IMGG/Frame 839.png" class="img-fluid ais_img "
-                                            alt="AIS IMGG"></div>
+                                            alt="AIS IMGG" onclick="imag1()"></div>
                                 </div>
-                                <div><i class="bi bi-zoom-in" onclick="imag1()"></i></div>
+                                <!-- <div><i class="bi bi-zoom-in" onclick="imag1()"></i></div> -->
                             </div>
                             <div class="col-3 mt-5">
                                 <p class="lead"> <i class="fa fa-check margin-ais-top "></i>Departmental Charts</p>
@@ -1078,7 +1077,7 @@ function closethis() {
     imageSlider = false
 
 }
-function imag(src) {
+function imag_show(src) {
     setTimeout(() => {
         $(".pop-up-image").show()
     }, 2500);
