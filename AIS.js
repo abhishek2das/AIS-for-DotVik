@@ -10,10 +10,16 @@ $("documnet").ready(() => {
     autoplayTimeout: 2000,
     autoplayHoverPause: true,
     responsive: {
-      1000: {
-        items: 1,
+      0: {
+          items: 1,
       },
-    },
+      600: {
+          items: 1,
+      },
+      1000: {
+          items: 1,
+      }
+  }
   });
 
   $("#MobileSlider").owlCarousel({
@@ -27,10 +33,16 @@ $("documnet").ready(() => {
     autoplayTimeout: 2000,
     autoplayHoverPause: true,
     responsive: {
-      1000: {
-        items: 1,
+      0: {
+          items: 1,
       },
-    },
+      600: {
+          items: 1,
+      },
+      1000: {
+          items: 1,
+      }
+  }
   });
 
   $("#reports_slide").owlCarousel({
@@ -43,10 +55,16 @@ $("documnet").ready(() => {
     autoplayHoverPause: true,
     autoHeight: true,
     responsive: {
-      1000: {
-        items: 1,
+      0: {
+          items: 1,
       },
-    },
+      600: {
+          items: 1,
+      },
+      1000: {
+          items: 1,
+      }
+  }
   });
 
 
@@ -205,46 +223,46 @@ $(".slider").slick({
 //   autoplayHoverPause: true,
 // });
 
-$(".admin_slider_mobile2").slick({
-  dots: false,
-  infinite: true,
-  slidesToShow: 1,
-  slidesToScroll: 1,
-  items: 1,
-  loop: true,
-  smartSpeed: 5000,
-  margin: 10,
-  autoplay: true,
-  autoplayTimeout: 5000,
-  autoplayHoverPause: true,
-});
+// $(".admin_slider_mobile2").slick({
+//   dots: false,
+//   infinite: true,
+//   slidesToShow: 1,
+//   slidesToScroll: 1,
+//   items: 1,
+//   loop: true,
+//   smartSpeed: 5000,
+//   margin: 10,
+//   autoplay: true,
+//   autoplayTimeout: 5000,
+//   autoplayHoverPause: true,
+// });
 
-$(".ais_auditing_mobile").slick({
-  dots: true,
-  infinite: true,
-  slidesToShow: 1,
-  slidesToScroll: 1,
-  items: 1,
-  loop: true,
-  smartSpeed: 5000,
-  margin: 10,
-  autoplay: true,
-  autoplayTimeout: 5000,
-  autoplayHoverPause: true,
-});
-$(".reports_slide_mobile").slick({
-  dots: true,
-  infinite: true,
-  slidesToShow: 1,
-  slidesToScroll: 1,
-  items: 1,
-  loop: true,
-  smartSpeed: 5000,
-  margin: 10,
-  autoplay: true,
-  autoplayTimeout: 5000,
-  autoplayHoverPause: true,
-});
+// $(".ais_auditing_mobile").slick({
+//   dots: true,
+//   infinite: true,
+//   slidesToShow: 1,
+//   slidesToScroll: 1,
+//   items: 1,
+//   loop: true,
+//   smartSpeed: 5000,
+//   margin: 10,
+//   autoplay: true,
+//   autoplayTimeout: 5000,
+//   autoplayHoverPause: true,
+// });
+// $(".reports_slide_mobile").slick({
+//   dots: true,
+//   infinite: true,
+//   slidesToShow: 1,
+//   slidesToScroll: 1,
+//   items: 1,
+//   loop: true,
+//   smartSpeed: 5000,
+//   margin: 10,
+//   autoplay: true,
+//   autoplayTimeout: 5000,
+//   autoplayHoverPause: true,
+// });
 
 //////////////////////////////////////////////////////
 let imageSlider = false;
