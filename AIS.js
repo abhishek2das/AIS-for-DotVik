@@ -23,7 +23,7 @@ $("documnet").ready(() => {
 
     responsiveClass: true,
     autoHeight: true,
-    autoplay: true,  
+    autoplay: true,
     autoplayTimeout: 2000,
     autoplayHoverPause: true,
     responsive: {
@@ -49,10 +49,92 @@ $("documnet").ready(() => {
     },
   });
 
+
+  $("#admin_slider_mobile").owlCarousel({
+    loop: true,
+    margin: 10,
+    items: 1,
+    responsiveClass: true,
+    animateIn: true,
+    autoplay: true,
+    autoplayTimeout: 2000,
+    autoplayHoverPause: true,
+    autoHeight: true,
+    responsive: {
+      0: {
+        items: 1,
+      },
+      600: {
+        items: 1,
+      },
+      1000: {
+        items: 1,
+      },
+    },
+  });
+  $("#ais_auditing_mobile").owlCarousel({
+    loop: true,
+    margin: 10,
+    responsiveClass: true,
+    animateIn: true,
+    autoplay: true,
+    autoplayTimeout: 2000,
+    autoplayHoverPause: true,
+    autoHeight: true,
+    responsive: {
+      0: {
+        items: 1,
+     
+      },
+      600: {
+        items: 1,
+      
+      },
+      1000: {
+        items: 1,
+       
+      },
+    },
+  });
+  $("#reports_slide_mobile").owlCarousel({
+    loop: true,
+    margin: 10,
+    responsiveClass: true,
+    animateIn: true,
+    autoplay: true,
+    autoplayTimeout: 2000,
+    autoplayHoverPause: true,
+    autoHeight: true,
+    responsive: {
+      0: {
+        items: 1,
+     
+      },
+      600: {
+        items: 1,
+      
+      },
+      1000: {
+        items: 1,
+       
+      },
+    },
+  });
 });
-function adminPanel(){$("#admin_slider").trigger("to.owl.carousel", [0, 0, true]);}
-function MobileClick() {$("#MobileSlider").trigger("to.owl.carousel", [0, 0, true]);}
-function reportsPanel() {$("#reports_slide").trigger("to.owl.carousel", [0, 0, true]);}
+function adminPanel() {
+  $("#admin_slider").trigger("to.owl.carousel", [0, 0, true]);
+  $("#admin_slider_mobile").trigger("to.owl.carousel", [0, 0, true]);
+
+}
+function MobileClick() {
+  $("#MobileSlider").trigger("to.owl.carousel", [0, 0, true]);
+  $("#ais_auditing_mobile").trigger("to.owl.carousel", [0, 0, true]);
+
+}
+function reportsPanel() {
+  $("#reports_slide").trigger("to.owl.carousel", [0, 0, true]);
+  $("#reports_slide_mobile").trigger("to.owl.carousel", [0, 0, true]);
+}
 
 $(".slider").slick({
   infinite: true,
@@ -109,19 +191,19 @@ $(".slider").slick({
 //   autoplayHoverPause: true,
 // });
 
-$(".admin_slider_mobile").slick({
-  dots: true,
-  infinite: true,
-  slidesToShow: 1,
-  slidesToScroll: 1,
-  items: 1,
-  loop: true,
-  smartSpeed: 5000,
-  margin: 10,
-  autoplay: true,
-  autoplayTimeout: 5000,
-  autoplayHoverPause: true,
-});
+// $(".admin_slider_mobile").slick({
+//   dots: true,
+//   infinite: true,
+//   slidesToShow: 1,
+//   slidesToScroll: 1,
+//   items: 1,
+//   loop: true,
+//   smartSpeed: 5000,
+//   margin: 10,
+//   autoplay: true,
+//   autoplayTimeout: 5000,
+//   autoplayHoverPause: true,
+// });
 
 $(".admin_slider_mobile2").slick({
   dots: false,
