@@ -1449,3 +1449,12 @@ margin-top: -35px;
   margin-top: -11px;
   display: none;
 }
+.carousel-control-next{
+  display: none;
+}
+.carousel-control-prev{
+display: none;
+}
+.carousel-indicators{
+  display: none;
+}

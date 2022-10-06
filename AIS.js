@@ -138,6 +138,31 @@ $("documnet").ready(() => {
       },
     },
   });
+  $("#carouselExampleIndicators").owlCarousel({
+    loop: true,
+    margin: 10,
+    responsiveClass: true,
+    animateIn: true,
+    autoplay: true,
+    autoplayTimeout: 2000,
+    autoplayHoverPause: true,
+    autoHeight: true,
+    responsive: {
+      0: {
+        items: 1,
+     
+      },
+      600: {
+        items: 1,
+      
+      },
+      1000: {
+        items: 1,
+       
+      },
+    },
+  });
+
 });
 function adminPanel() {
   $("#admin_slider").trigger("to.owl.carousel", [0, 0, true]);
@@ -303,12 +328,12 @@ function imag1() {
   $("html").css({ overflow: "hidden" });
   imageSlider = true;
 }
-$(document).ready(() => {
-  $(".carousel").carousel({
-    interval: 2000,
-    keyboard: true,
-  });
-});
+// $(document).ready(() => {
+//   $(".carousel").carousel({
+//     interval: 2000,
+//     keyboard: true,
+//   });
+// });
 
 $(document).keyup(function (e) {
   if (imageSlider === true) {
