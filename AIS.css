@@ -1126,7 +1126,7 @@ li {
 }
 
 li a {
-  color: white;
+  color: rgb(197, 39, 39);
 }
 
 .phone li {
@@ -1457,4 +1457,63 @@ display: none;
 }
 .carousel-indicators{
   display: none;
+}
+.PhoneCarousel-caption{
+  background-color: #dcdcdc69;
+  text-align: center;
+  padding: 10px;
+
+}
+@media (min-width: 770px) {
+  .PhoneCarousel-caption{
+    display: none;
+  
+  }
+}
+.navbar-style li a {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 600;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.dropdown-menu {
+  position: absolute;
+  top: 99%;
+  left: -77px;
+  z-index: 1000;
+  display: none;
+  float: left;
+  min-width: 10rem;
+  padding: 0.5rem 0;
+  margin: 0.125rem 0 0;
+  font-size: 1.2rem;
+  color: #212529;
+  text-align: left;
+  list-style: none;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1pxsolidrgba(0,0,0,.15);
+  /* border-radius: 0.25rem; */
+
+}
+.dropdown-item {
+  display: block;
+  width: 100%;
+  padding: 0.88rem 1.5rem;
+  clear: both;
+  font-weight: 400;
+  color: #212529;
+  text-align: inherit;
+  white-space: nowrap;
+  background-color: #0000;
+  border: 0;
+}
+a:hover {
+  color: #000000;
+  text-decoration: underline;
+}
+.bg-light {
+  background-color: #f8f9fa!important;
+  padding: 0px 70px;
 }

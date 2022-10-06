@@ -138,7 +138,8 @@ $("documnet").ready(() => {
       },
     },
   });
-  $("#carouselExampleIndicators").owlCarousel({
+
+  $("#carouselIndicators").owlCarousel({
     loop: true,
     margin: 10,
     responsiveClass: true,
@@ -147,6 +148,7 @@ $("documnet").ready(() => {
     autoplayTimeout: 2000,
     autoplayHoverPause: true,
     autoHeight: true,
+    dots:false,
     responsive: {
       0: {
         items: 1,
