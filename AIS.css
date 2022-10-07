@@ -1,30 +1,3 @@
-/* .navbar {
-    position: relative;
-    left: 0px;
-    top: 0px;
-    background:#f6f6f6;
-    width: 100%;
-} */
-
-/* .nav-brand {
-    font-family: Source Sans Pro;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 45px;
-    line-height: 53px; */
-/* identical to box height */
-/* color: #FFFFFF !important;
-} */
-/* 
-.navItem a {
-    font-family: Source Sans Pro;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 116.7%; */
-/* identical to box height, or 21px */
-/* color: #2954d5;
-} */
 #fullBody{
     background: #fafafa;
 
@@ -1264,7 +1237,7 @@ li a {
     font-size: 17px;
     color: #FFFFFF;
     text-align: inherit;
-    margin-left: -33px;
+    margin-left: -14px;
   }
   
 }
@@ -1529,4 +1502,12 @@ a:hover {
 .bg-light {
   background-color: #f8f9fa!important;
   padding: 0px 70px;
+}
+dl, ol, ul {
+  margin-top: 0px;
+  margin-left: -14px;
+  margin-bottom: 1rem;
+}
+.AuditLi li {
+ text-align:start; 
 }
