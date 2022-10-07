@@ -1239,7 +1239,7 @@ li a {
     text-align: inherit;
     margin-left: -14px;
   }
-  
+
 }
 
 .margin-top-h5 {
@@ -1517,7 +1517,7 @@ a:hover {
   font-variant: normal;
   text-transform: none;
   line-height: 1;
-  margin-left: -25px;
+  /* margin-left: -25px; */
   vertical-align: -.125em;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
