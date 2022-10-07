@@ -25,7 +25,10 @@
 /* identical to box height, or 21px */
 /* color: #2954d5;
 } */
+#fullBody{
+    background: #fafafa;
 
+}
 .hero {
   background-image: url(./assets/wall/4.png);
   background-color:#C52727;
@@ -33,19 +36,20 @@
   background-size: auto;
   background-position: center;
   margin-top: -97px;
+  /* margin-bottom: -29px; */
 }
 
 .hero-heading1 {
   font-family: Source Sans Pro;
   font-style: normal;
   font-weight: 900;
-  font-size: 56px;
+  font-size: 45px;
   margin-top: 100px;
   color: #FFFFFF;
   text-align: center;
 }
 
-.hero-heading2 {
+.hero-heading2  {
   font-family: Source Sans Pro;
   font-style: normal;
   font-weight: 900;
@@ -59,14 +63,14 @@
 }
 
 
-.hero-para1 {
+.hero-para1 ul>li{
   font-family: Source Sans Pro;
   font-style: normal;
   font-weight: normal;
-  font-size: 26px;
+  font-size: 20px;
   color: #FFFFFF;
-  text-align: center;
-  margin-top: -22px;
+  text-align: inherit;
+  /* margin-top: -22px; */
 }
 
 .slick-dots li.slick-active button:before {
@@ -1236,7 +1240,7 @@ li a {
     font-family: Source Sans Pro;
     font-style: normal;
     font-weight: 900;
-    font-size: 35px;
+    font-size: 30px;
     margin-top: 60px;
     /* 
       or 64px */
@@ -1253,7 +1257,16 @@ li a {
     /* 
       or 64px */
     color: #FFFFFF;
+  }.hero-para1 ul>li{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    color: #FFFFFF;
+    text-align: inherit;
+    margin-left: -33px;
   }
+  
 }
 
 .margin-top-h5 {
