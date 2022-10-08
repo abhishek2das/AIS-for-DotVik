@@ -4,7 +4,7 @@ $("documnet").ready(() => {
     loop: true,
     margin: 10,
     responsiveClass: true,
-    nav: true,
+    nav: false,
     autoHeight: true,
     autoplay: true,
     autoplayTimeout: 2000,
@@ -26,7 +26,7 @@ $("documnet").ready(() => {
     loop: true,
     margin: 10,
     animateIn: true,
-
+    nav: false,
     responsiveClass: true,
     autoHeight: true,
     autoplay: true,
@@ -48,6 +48,7 @@ $("documnet").ready(() => {
   $("#reports_slide").owlCarousel({
     loop: true,
     margin: 10,
+    nav: false,
     responsiveClass: true,
     animateIn: true,
     autoplay: true,
@@ -73,6 +74,8 @@ $("documnet").ready(() => {
     margin: 10,
     items: 1,
     responsiveClass: true,
+    nav: false,
+
     animateIn: true,
     autoplay: true,
     autoplayTimeout: 2000,
