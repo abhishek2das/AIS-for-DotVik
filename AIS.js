@@ -75,7 +75,6 @@ $("documnet").ready(() => {
     items: 1,
     responsiveClass: true,
     nav: false,
-
     animateIn: true,
     autoplay: true,
     autoplayTimeout: 2000,
